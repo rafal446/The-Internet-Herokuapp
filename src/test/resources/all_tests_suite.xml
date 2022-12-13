@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="The internet ('http://the-internet.herokuapp.com' ) test">
+
+    <test name="Context menu test">
+        <classes>
+            <class name="tests.ContextMenuTest"/>
+        </classes>
+    </test>
+
+    <test name="Add and Remove elements">
+        <classes>
+            <class name="tests.AddAndRemoveElementsTest"/>
+        </classes>
+    </test>
+
+    <test name="Broken Images">
+        <classes>
+            <class name="tests.BrokenImagesTests"/>
+        </classes>
+    </test>
+
+    <test name="File download test">
+        <classes>
+            <class name="tests.FileDownloadTest"/>
+        </classes>
+    </test>
+
+    <test name="Upload file test">
+        <classes>
+            <class name="tests.UploadFileTest"/>
+        </classes>
+    </test>
+
+    <test name="iFrame Test">
+        <classes>
+            <class name="tests.IframeTest"/>
+        </classes>
+    </test>
+
+    <test name="Basic Authentication test">
+        <classes>
+            <class name="tests.BasicAuthTest"/>
+        </classes>
+    </test>
+
+</suite>
